@@ -1,3 +1,3 @@
-#!/usr/bin/Pyton3
+#!/usr/bin/Python3
 def only_diff_elements(set_1, set_2):
     return (set_1 ^ set_2)
