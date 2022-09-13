@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-"""
-Module provides a class for cresting Square objects
-"""
+"""Module provides a class for cresting Square objects"""
+
+
 class Square:
-    """
-    Square class that defines a square with a size
-    """
+    """Square class that defines a square with a size"""
     def __init__(self, size=0):
         """
         Initialize object
@@ -34,7 +32,7 @@ class Square:
 
     @property
     def size(self):
-         """Get square size"""
+        """Get square size"""
         return self.__size
 
     @size.setter
