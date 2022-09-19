@@ -3,8 +3,10 @@
 
 
 class Rectangle:
-    """a retangle class with width and height methods
-    Returns instance error for methods"""
+    """
+    a retangle class with width and height methods
+    Returns instance error for methods
+    """
 
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle.
