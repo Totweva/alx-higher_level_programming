@@ -7,6 +7,6 @@ class MyList(list):
 
     def print_sorted(self):
         """prints the list in ascending order"""
-        new_list = self[:]
-        new_list.sort()
-        print("{}".format(new_list))
+
+        _copy = sorted([i for i in self])
+        print(_copy)
