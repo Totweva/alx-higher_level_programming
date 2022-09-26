@@ -3,11 +3,10 @@
 
 
 class MyList(list):
-    """
-    A class that inherits from list
-    """
+    """A class that inherits from list"""
 
     def print_sorted(self):
-        """Pubilc instance method that prints the list in ascending order"""
-        _copy = sorted([i for i in self])
-        print(_copy)
+        """prints the list in ascending order"""
+        new_list = self[:]
+        new_list.sort()
+        print("{}".format(new_list))
