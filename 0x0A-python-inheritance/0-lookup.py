@@ -3,6 +3,13 @@
 
 
 def lookup(obj):
-    """Return a list of an object's available attributes."""
-
-    return (dir(obj))
+    """List available attributes and methods in an object
+    Args:
+        obj (object): object to lookup
+    Return:
+        List of attributes and methods
+    """
+    res = []
+    if isinstance(obj, object):
+        res = dir(obj)
+    return res

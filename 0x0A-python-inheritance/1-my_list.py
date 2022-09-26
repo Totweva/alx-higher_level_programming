@@ -9,5 +9,5 @@ class MyList(list):
 
     def print_sorted(self):
         """Pubilc instance method that prints the list in ascending order"""
-
-        print(sorted(self))
+        _copy = sorted([i for i in self])
+        print(_copy)
