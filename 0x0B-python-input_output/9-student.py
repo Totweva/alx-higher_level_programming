@@ -7,7 +7,6 @@ class Student:
 
     def __init__(self, first_name, last_name, age):
         """Initializing first_name(str), last_name(str) and age(int)"""
-
         self.first_name = first_name
         self.second_name = second_name
         self.age = age
