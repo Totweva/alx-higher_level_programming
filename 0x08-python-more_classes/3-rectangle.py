@@ -71,9 +71,9 @@ class Rectangle:
             return ("")
 
         _rec = ""
-        for i in range(self.__width):
-            for j in range(self.__height):
+        for i in range(self.__height):
+            for j in range(self.__width):
                 _rec += "#"
-            if i != self.__width - 1:
+            if i != self.__height - 1:
                 _rec += "\n"
         return _rec
