@@ -70,9 +70,10 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return ("")
 
-        _rec = []
+        _rec = ""
         for i in range(self.__height):
-            [_rec.append("#") for j in range(self.__width)]
+            for j in range(self.__width):
+                _rec += "#"
             if i != self.__height - 1:
-                _rec.append("\n")
-        return ("".join(_rec))
+                _rec += "\n"
+        return _rec
