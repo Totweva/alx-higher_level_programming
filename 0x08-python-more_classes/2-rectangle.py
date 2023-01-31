@@ -65,5 +65,4 @@ class Rectangle:
         """defining the perimeter of the rectangle"""
         if width == 0 or height == 0:
             return 0
-        elif p = (2 * (width + height))
-        return p
+        return (2 * (width + height))
