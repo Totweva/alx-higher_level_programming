@@ -12,18 +12,19 @@ class Rectangle:
             width: private instance class
             height: private instance class
         """
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
 
     @property
     def width(self):
         """implementing the width instance"""
-        self.__width = width
+        return self.__width
 
     @width.setter
     def width(self, value):
         """
         setting the width property
+        args: value (int): value
         Raises:
             TypeError: if not an integer
             ValueError: if less than zero
@@ -37,12 +38,13 @@ class Rectangle:
     @property
     def height(self):
         """implementing the height instance"""
-        self.__height = height
+        return self.__height
 
     @height.setter
     def height(self, value):
         """
         setting the height property
+        args: value (int): value
         Raises:
             TypeError: if not an integer
             ValueError: if less than zero
