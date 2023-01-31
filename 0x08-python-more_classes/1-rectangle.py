@@ -29,7 +29,7 @@ class Rectangle:
             TypeError: if not an integer
             ValueError: if less than zero
         """
-        if not isinstance(int, value):
+        if not isinstance(value, int):
             raise TypeError("width must be an integer")
         elif value < 0:
             raise ValueError("width must be >= 0")
@@ -49,7 +49,7 @@ class Rectangle:
             TypeError: if not an integer
             ValueError: if less than zero
         """
-        if not isinstance(int, value):
+        if not isinstance(value, int):
             raise TypeError("height must be integer")
         elif value < 0:
             raise ValueError("height must be >= 0")
