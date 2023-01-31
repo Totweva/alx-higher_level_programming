@@ -7,7 +7,6 @@ class Rectangle:
     number_of_instances = 0
     print_symbol = "#"
 
-
     def __init__(self, width=0, height=0):
         """
         initialzing the class
@@ -17,7 +16,7 @@ class Rectangle:
         """
         self.width = width
         self.height = height
-        type(self).number_of_intances += 1
+        type(self).number_of_instances += 1
 
     @property
     def width(self):
@@ -90,5 +89,3 @@ class Rectangle:
         """delete an instance with a messsage " bye rect..."""
         type(self).number_of_instances -= 1
         print("Bye rectangle...")
-
-
