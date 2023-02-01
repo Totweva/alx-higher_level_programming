@@ -1,0 +1,53 @@
+=====================
+3-say_my_name.py
+=====================
+
+The module contains a function ``say_my_name(first_name, last_name="")`` that
+prints My first name and ast name
+
+	>>> say_my_name = __import__("3-say_my_name").say_my_name
+
+
+=============
+use case
+=============
+
+	>>>say_my_name("Kenneth", "Ojimba"):
+	My name is Kenneth Ojimba
+
+	>>>say_my_name("Kenneth", " "):
+	My name is Kenneth
+
+	>>>say_my_name(" ", "Ojimba"):
+	My name is Ojimba
+
+	>>>say_my_name("", ""):
+	My name is
+
+	>>>say_my_name("  ", "  "):
+	My name is
+
+
+Invalid arguments
+===================
+if is not a string
+
+	>>>say_my_name(5, 5.5):
+	Traceback (most recent call last):
+	TypeError: first_name and last_name must be a string
+
+	>>>say_my_name(5, "Ojimba"):
+        Traceback (most recent call last):
+        TypeError: first_name must be a string
+
+	>>>say_my_name("Kenneth", 5):
+        Traceback (most recent call last):
+        TypeError: last_name must be a string
+
+	>>>say_my_name(5.5, 5.5):
+        Traceback (most recent call last):
+        TypeError: first_name and last_name must be a string
+
+	>>>say_my_name(5, True):
+        Traceback (most recent call last):
+        TypeError: first_name and last_name must be a string
