@@ -11,8 +11,4 @@ def is_same_class(obj, a_class):
         obj:
         a_class:
     """
-    x = a_class(dir(obj))
-    for i in range(x):
-       if i == obj:
-           return True
-       return False
+    return type(obj) is a_class

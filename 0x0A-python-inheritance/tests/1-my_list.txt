@@ -2,8 +2,8 @@
 1-my_list.py
 =================
 
-This test is done on `MyList` subclass of `list`
-MyList= __import__(1-my_list.py).MyList
+This test is done on ``MyList`` subclass of ``list``
+MyList = __import__(1-my_list.py).MyList
 
 ============
 use case
