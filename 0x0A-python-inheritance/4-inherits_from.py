@@ -5,8 +5,8 @@
 def inherits_from(obj, a_class):
     """
     a function that returns TRUE if the obj is an
-    instance that inherited from the specified class, 
-    and FALSE if it isnt
+    instance that inherited from the specified class,
+    and FALSE if it isnt.
     args:
         obj: instance
         a_class: class

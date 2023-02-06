@@ -7,7 +7,6 @@ BaseGeometry = __import__('7-base_geometry').BaseGeometry
 class Rectangle(BaseGeometry):
     """Initalize the subclass rectangle"""
 
-
     def __init__(self, width, height):
         """
         defining the subclass with width and height
@@ -26,4 +25,4 @@ class Rectangle(BaseGeometry):
 
     def __str__(self):
         """print out as string"""
-        return ("[{}] {}/{}".format(self.__class__.__name__, self.__width, self__height))
+        return f"[{self.__class__.__name__}] {self.__width}/{self.__height}"

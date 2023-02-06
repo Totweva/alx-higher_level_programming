@@ -5,7 +5,6 @@
 class BaseGeometry:
     """initializing a class"""
 
-
     def area(self):
         """
         defining the propety area
@@ -15,7 +14,7 @@ class BaseGeometry:
         raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
-         """
+        """
         defining the propety integer_validator
         args:
             name: str
