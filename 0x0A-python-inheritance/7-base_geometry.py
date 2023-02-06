@@ -5,6 +5,7 @@
 class BaseGeometry:
     """initializing a class"""
 
+
     def area(self):
         """
         defining the propety area
