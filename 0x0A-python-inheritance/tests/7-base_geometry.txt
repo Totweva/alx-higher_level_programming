@@ -2,7 +2,8 @@
 7-base_geometry.txt
 =====================
 
->>> BaseGeometry = __import__("7-base_geometry").BaseGeometry
+This module contains the class ``BaseGeometry``
+	>>> BaseGeometry = __import__("7-base_geometry").BaseGeometry
 
 Normal Usage
 ============
