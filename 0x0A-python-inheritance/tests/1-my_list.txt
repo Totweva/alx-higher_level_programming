@@ -1,0 +1,30 @@
+=================
+1-my_list.py
+=================
+
+This test is done on `MyList` subclass of `list`
+MyList= __import__(1-my_list.py).MyList
+
+============
+use case
+============
+
+	>>> list = MyList()
+	>>> list,append(1)
+	>>> list.append(4)
+	>>> list.append(5)
+	>>> list.apppend(2)
+	>>> print(list)
+	[1, 4, 5, 2]
+	>>> list.print_sorted()
+	[1. 2. 4. 5]
+	>>> print(list)
+	[1, 4, 5, 2]
+
+empty list
+
+	>>> listt = []
+	>>> list = MyList(listt)
+	>>> list.print_sorted()
+	[]
+	>>>
