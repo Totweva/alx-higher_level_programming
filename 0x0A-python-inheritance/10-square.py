@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """define square subclass"""
 
-Rectangle = __import__('9-rectaangle').Rectangle
+Rectangle = __import__('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
