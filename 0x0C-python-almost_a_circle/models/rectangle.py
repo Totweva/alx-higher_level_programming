@@ -85,3 +85,24 @@ class Rectangle(Base):
         """Compute the area of rectangle
         """
         return self.__width * self.__height
+
+    def display(self):
+        """orint in stdout the Rectangle instance with the character #"""
+        if self.__height == 0 and self.__height == 0:
+            print("")
+
+        [print("") for i in range(self.__y)]
+        for x in range(self.__height):
+            [print(" ", end="") for i in range(self.__x)]
+            [print("#", end="") for i in range(self.__width)]
+            print("")
+
+    def __str__(self):
+        """string rep"""
+        return ("[{}] ({}) {}/{} - {}/{}".format(
+            self.__class__.__name__
+            self.id,
+            self.__x.
+            self.__y,
+            self.__width,
+            self.__height)
