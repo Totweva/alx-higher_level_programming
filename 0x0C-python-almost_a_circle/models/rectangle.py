@@ -3,6 +3,8 @@
 
 from models.base import Base
 
+__all__ = ['Rectangle']
+
 
 class Rectangle(Base):
     """A rectangle class inherits base module"""
