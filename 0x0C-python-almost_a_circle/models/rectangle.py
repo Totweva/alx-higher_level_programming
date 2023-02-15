@@ -9,7 +9,7 @@ __all__ = ['Rectangle']
 class Rectangle(Base):
     """A rectangle class inherits base module"""
 
-    def __init__(self, width, height. x=0. y=0, id=None):
+    def __init__(self, width, height, x=0. y=0, id=None):
         """
         initializing Rectangle class
         Args:
